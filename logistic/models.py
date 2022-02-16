@@ -14,6 +14,7 @@ class Stock(models.Model):
         through='StockProduct',
         related_name='stocks',
     )
+    
 
 
 class StockProduct(models.Model):
